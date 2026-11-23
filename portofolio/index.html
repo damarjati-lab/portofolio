@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio XI TKJ 1</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">XI TKJ 1</h2>
+
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link active">About Me</a></li>
+                <li><a href="#skill" class="nav-link">Skill</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me -->
+    <section id="about" class="section">
+        <h1>About Me</h1>
+
+        <div class="about-container">
+            <img src="images/profile.jpg" alt="Foto Profil" class="profile">
+
+            <div class="about-text">
+                <h2>Halo, Saya Siswa XI TKJ 1</h2>
+                <p>
+                    Saya adalah siswa jurusan Teknik Komputer dan Jaringan
+                    yang tertarik dengan teknologi, jaringan komputer,
+                    pemrograman, dan dunia IT.
+                </p>
+
+                <table>
+                    <tr>
+                        <th>Nama</th>
+                        <td>Nama Siswa</td>
+                    </tr>
+                    <tr>
+                        <th>Kelas</th>
+                        <td>XI TKJ 1</td>
+                    </tr>
+                    <tr>
+                        <th>Jurusan</th>
+                        <td>Teknik Komputer dan Jaringan</td>
+                    </tr>
+                    <tr>
+                        <th>Hobi</th>
+                        <td>Olahraga dan Teknologi</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill -->
+    <section id="skill" class="section">
+        <h1>My Skill</h1>
+
+        <div class="card-container">
+            <div class="card">
+                <h3>HTML</h3>
+                <p>Membuat struktur dasar sebuah website.</p>
+            </div>
+
+            <div class="card">
+                <h3>CSS</h3>
+                <p>Mengatur tampilan, layout, warna, dan responsivitas website.</p>
+            </div>
+
+            <div class="card">
+                <h3>JavaScript</h3>
+                <p>Membuat website menjadi lebih interaktif.</p>
+            </div>
+
+            <div class="card">
+                <h3>Networking</h3>
+                <p>Memahami dasar jaringan komputer dan konfigurasi perangkat jaringan.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+        <h1>Experience</h1>
+
+        <div class="experience-box">
+            <h3>Project Cisco</h3>
+            <p>
+                Membuat simulasi jaringan menggunakan Cisco Packet Tracer,
+                termasuk routing, VLAN, DHCP, dan ACL.
+            </p>
+        </div>
+
+        <div class="experience-box">
+            <h3>Web Development</h3>
+            <p>
+                Membuat website sederhana menggunakan HTML, CSS,
+                dan JavaScript.
+            </p>
+        </div>
+
+        <div class="experience-box">
+            <h3>Network Security</h3>
+            <p>
+                Mempelajari dasar keamanan jaringan dan analisis
+                traffic menggunakan Wireshark.
+            </p>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="section">
+        <h1>Gallery</h1>
+
+        <div class="gallery-container">
+            <img src="images/gallery1.jpg" alt="Project 1">
+            <img src="images/gallery2.jpg" alt="Project 2">
+            <img src="images/gallery3.jpg" alt="Project 3">
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h1>Contact Me</h1>
+
+        <form id="contactForm">
+
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" placeholder="Masukkan nama">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Masukkan email">
+
+            <label>Jenis Kelamin</label>
+
+            <div class="gender">
+                <label>
+                    <input type="radio" name="gender" value="Laki-laki">
+                    Laki-laki
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="Perempuan">
+                    Perempuan
+                </label>
+            </div>
+
+            <label for="ciri">Ciri Khas</label>
+            <input type="text" id="ciri" placeholder="Contoh: Suka coding">
+
+            <label for="pesan">Pesan</label>
+            <textarea id="pesan" rows="5"
+                placeholder="Tulis pesan kamu"></textarea>
+
+            <div class="button-container">
+                <button type="submit">Kirim</button>
+                <button type="reset" class="reset">Reset</button>
+            </div>
+
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 XI TKJ 1 | Portfolio Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
